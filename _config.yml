@@ -16,7 +16,7 @@ author: Japan
 
 root_tag_generator:
   root_tag_names:
-    - AzureSubscription
+    - AzureSubscriptionManagement
 
   sub_tag_limit: 20
   sub_tag_sort: 'name' # 未実装
