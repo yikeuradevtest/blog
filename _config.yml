@@ -3,19 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # ブログのタイトル
-title: Japan Blog 
+title: Japan Azure Subscription Management Support Blog 
 
 # サブタイトル
-subtitle: 日本のブログです。
-description: 日本のブログです。
+subtitle: 日本マイクロソフトの Azure Subscription Management に関するサポート情報のブログです。
+description: 日本マイクロソフトの Azure Subscription Management  に関するサポート情報のブログです。
 keywords:
-  - A
+  - Azure
+  - Azure Subscription
 
-author: A
+author: Azure Subscription Management Support Japan
 
 root_tag_generator:
   root_tag_names:
-    - A
+    - AzureSubscription
 
   sub_tag_limit: 20
   sub_tag_sort: 'name' # 未実装
