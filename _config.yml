@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # ブログのタイトル
-title: 閉鎖中
+title: Japan Blog 
 
 # サブタイトル
-subtitle: 閉鎖中
-description: 閉鎖中
+subtitle: 日本のブログです。
+description: 日本報のブログです。
 keywords:
   - Azure
   - Azure Subscription
@@ -16,7 +16,7 @@ author: Japan
 
 root_tag_generator:
   root_tag_names:
-    - AzureSubscriptionManagement
+    - AzureSubscription
 
   sub_tag_limit: 20
   sub_tag_sort: 'name' # 未実装
