@@ -60,8 +60,8 @@ jobs:
       - run:
           name: npm run deploy
           command: |
-            git config --global user.email "jpazidbot@microsoft.com"
-            git config --global user.name "jpazidbot"
+            git config --global user.email "yikeura@microsoft.com"
+            git config --global user.name "yikeura700"
             npm run deploy
       - run: npm run deleteMergedPreview
           
