@@ -3,45 +3,40 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # ブログのタイトル
-title: Japan Azure Identity Support Blog 
+title: Japan Blog 
 
 # サブタイトル
-subtitle: 日本マイクロソフトの Azure Active Directory と AD FS に関するサポート情報のブログです。
-description: 日本マイクロソフトの Azure Active Directory と AD FS に関するサポート情報のブログです。
+subtitle: 日本のブログです。
+description: 日本のブログです。
 keywords:
-  - Azure
-  - Azure AD
-  - Identity
-  - AD FS
+  - A
 
-author: Azure Identity Support Japan
+author: A
 
 root_tag_generator:
   root_tag_names:
-    - Azure AD
-    - AAD Connect
-    - AD FS
-    - 情報採取
+    - A
+
   sub_tag_limit: 20
   sub_tag_sort: 'name' # 未実装
   
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jpazureid.github.io/blog/
+url: https://jpazasms.github.io/blog/
 github:
-  url: https://github.com/jpazureid/blog/
+  url: https://github.com/jpazasms/blog/
   posts_dir: articles
 
 skip_render:
   - '_data/*.png'
   - 'BingSiteAuth.xml'
-  - 'google4a4cd09c454aa91c.html'
+  - 'google2817052e7072bc62.html'
 
 # Deployment
 ## Docs: https://hexo.io/doc  s/deployment.html
 deploy:
   type: git
-  repo: git@github.com:jpazureid/blog.git
+  repo: git@github.com:jpazasms/blog.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [skip ci]"
 
